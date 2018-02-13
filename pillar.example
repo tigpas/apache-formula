@@ -5,6 +5,10 @@ apache:
   lookup:
     server: apache2
     service: apache2
+    # enabled: Start and add to autostart
+    # disabled: Remove from autostart, but ignore if running or not
+    # dead: Stop and remove from autostart
+    service_status: enabled
     user: some_system_user
     group: some_system_group
 

@@ -5,6 +5,7 @@
     'Gentoo': {
         'server': 'www-servers/apache',
         'service': 'apache2',
+        'service_status': 'enabled',
         'user': 'apache',
         'group': 'apache',
         'configfile': '/etc/apache2/httpd.conf',
@@ -24,6 +25,7 @@
     'Debian': {
         'server': 'apache2',
         'service': 'apache2',
+        'service_status': 'enabled',
         'user': 'www-data',
         'group': 'www-data',
         'configfile': '/etc/apache2/apache2.conf',
@@ -49,6 +51,7 @@
     'RedHat': {
         'server': 'httpd',
         'service': 'httpd',
+        'service_status': 'enabled',
         'user': 'apache',
         'group': 'apache',
         'configfile': '/etc/httpd/conf/httpd.conf',
@@ -72,6 +75,7 @@
     'Suse': {
         'server': 'apache2',
         'service': 'apache2',
+        'service_status': 'enabled',
         'user': 'wwwrun',
         'group': 'www',
         'configfile': '/etc/apache2/httpd.conf',
@@ -91,6 +95,7 @@
     'FreeBSD': {
         'server': 'apache24',
         'service': 'apache24',
+        'service_status': 'enabled',
         'user': 'www',
         'group': 'www',
         'configfile': '/usr/local/etc/apache24/httpd.conf',
@@ -114,6 +119,7 @@
     'Arch': {
         'server': 'apache',
         'service': 'httpd',
+        'service_status': 'enabled',
         'user': 'http',
         'group': 'http',
         'configfile': '/etc/httpd/conf/httpd.conf',
